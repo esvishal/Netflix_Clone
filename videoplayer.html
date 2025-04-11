@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="VdieoplayerStyles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #111;
+        }
+
+        .video-container {
+            max-width: 800px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        video {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav" id="nav">
+        <img src="imagemov/logo.png" alt="" class="navlogo">
+        <a href="https://www.netflix.com/in/Login" target="_blank">
+            <img src="imagemov/logo2.png" alt="" class="navlogo2"/>
+        </a>
+    </div>
+    <div class="video-container">
+        <video controls>
+            <source src="imagemov\Marvel's Daredevil _ Official Trailer [HD] _ Netflix.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX CLONE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nav" id="nav">
+        <img src="imagemov/logo.png" alt="" class="navlogo">
+        <a href="https://www.netflix.com/in/Login" target="_blank">
+            <img src="imagemov/logo2.png" alt="" class="navlogo2"/>
+        </a>
+    </div>
+
+
+    <div class="banner">
+        <div class="bannercontents">
+          <h1 class="bannertitle">THE LEGEND</h1>
+          <div class="bannerbuttons">
+            <button class="bannerbutton">Play</button>
+            <button class="bannerbutton">watchlist</button>
+          </div>
+          <h1 class="bannerdescription">
+            Dr. Saravanan is a world-famous scientist who returns to India permanently to serve the people in his village and takes up the position of principal in his family's educational institution.
+          </h1>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </div>
+  
+    <h2>NETFLIX ORIGINALS</h2>
+    <div class="rowposters large">
+        <a href="videoplayer.html" target="_blank">
+            <img src="imagemov/mov1.jpg" alt="" class="rowposter large"/>
+        </a>
+        <img src="imagemov/mov2.jpg" alt="" class="rowposter large"/>
+        <img src="imagemov/mov3.jpg" alt="" class="rowposter large"/>
+        <img src="imagemov/mov4.jpg" alt="" class="rowposter large"/>
+        <img src="imagemov/mov5.jpg" alt="" class="rowposter large"/>
+        <img src="imagemov/mov6.jpg" alt="" class="rowposter large"/>
+    </div>
+    
+    <h2>TRENDING NOW</h2>
+    <div class="rowposters">
+        
+        <img src="imagemov/tmov1.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/tmov2.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/tmov3.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/tmov4.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/tmov5.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/tmov6.jpg" alt="" class="rowposter"/>
+    </div>
+
+    
+
+    <h2>TOP RATED</h2>
+    <div class="rowposters">
+        <img src="imagemov/acmov1.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/acmov2.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/acmov3.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/acmov4.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/acmov5.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/acmov6.jpg" alt="" class="rowposter"/>
+    </div>
+    
+    <h2>HORROR</h2>
+    <div class="rowposters">
+        <img src="imagemov/hmov1.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/hmov2.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/hmov3.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/hmov4.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/hmov5.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/hmov6.jpg" alt="" class="rowposter"/>
+    </div>
+
+    <h2>ANIMATED</h2>
+    <div class="rowposters">
+        <img src="imagemov/amov1.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/amov2.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/amov3.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/amov4.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/amov5.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/amov6.jpg" alt="" class="rowposter"/>
+    </div>
+
+    <h2>THRILLER</h2>
+    <div class="rowposters">
+        <img src="imagemov/tmov1.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/tmov2.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/tmov3.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/tmov4.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/tmov5.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/tmov6.jpg" alt="" class="rowposter"/>
+    </div>
+
+    <h2>COMEDY</h2>
+    <div class="rowposters">
+        <img src="imagemov/cmov1.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/cmov2.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/cmov3.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/cmov4.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/cmov5.jpg" alt="" class="rowposter"/>
+        <img src="imagemov/cmov6.jpg" alt="" class="rowposter"/>
+    </div>
+
+    <script>
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll' , () =>{
+            if(window.scrollY >= 100){
+                nav.classList.add('navblack');
+            }
+            else{
+                nav.classList.remove('navblack');
+            }
+        })
+    </script>
+</body>
+</html>
